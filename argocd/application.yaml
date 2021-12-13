@@ -7,9 +7,8 @@ spec:
   project: default
 
   source:
-    repoURL: git@github.com:BuiltTechnologies/built-bitpusher.git
+    repoURL: https://github.com/acutchin-bitpusher/argotest
     targetRevision: HEAD
-    path: env/ac2/services/argotest/0.0.1
   destination: 
     server: https://kubernetes.default.svc
     namespace: argotest
