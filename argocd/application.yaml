@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/acutchin-bitpusher/argotest
+    repoURL: https://github.com/acutchin-bitpusher/argotest.git
     targetRevision: HEAD
   destination: 
     server: https://kubernetes.default.svc
