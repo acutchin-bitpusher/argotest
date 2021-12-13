@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argotest
+  namespace: argotest
+spec:
+  selector:
+    matchLabels:
+      app: argotest
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: argotest
+    spec:
+      containers:
+      - image: acutchinbitpusher/actest:0.0.35
+        imagePullPolicy: Always
+        name: argotest
+        ports:
+        - containerPort: 80
