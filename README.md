@@ -1,4 +1,6 @@
-# Simple Kubernetes YAML-configured service/deployment/ingress for testing ArgoCD
+# argotest
+
+* Simple Kubernetes YAML-configured service/deployment/ingress for testing ArgoCD
 
 * Apply to your cluster with:
 
